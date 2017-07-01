@@ -26,7 +26,7 @@ export default class FindFile extends Component {
     RNFS.readDir(folderPath).then(info => {
       this.setState({ file: JSON.stringify(info) });
       info.forEach(function (element) {
-        if (element.isFile()) {
+        if (element.isFile() && element.path.indexOf(".pdf") > -1) {
           items.push(element);
         }
       }, this);
