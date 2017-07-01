@@ -1,0 +1,26 @@
+{
+  "name": "FindFile",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "native-base": "^2.1.5",
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.45.0",
+    "react-native-file-opener": "^0.2.0",
+    "react-native-fs": "^2.3.3",
+    "react-native-pdf-view": "^0.3.2"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "1.9.2",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
